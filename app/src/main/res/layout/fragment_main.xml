@@ -66,6 +66,8 @@
             android:layout_height="wrap_content" />
         <!--New Register-->
         <TextView
+            android:id="@+id/txtRegister"
+            android:clickable="true"
             android:textColor="@color/colorAccent"
             android:textStyle="bold"
             android:textSize="@dimen/h2"
