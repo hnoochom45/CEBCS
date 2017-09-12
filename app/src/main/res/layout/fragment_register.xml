@@ -10,7 +10,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        android:id="@+id/ToobarRegister"
+        android:id="@+id/ToobarRegister"/>
 
 <!--content-->
     <ScrollView
@@ -23,30 +23,143 @@
 
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></LinearLayout>
-        <!--<<Name-->
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
 
-            <!--<icon-->
-            <ImageView
-                android:src="@mipmap/ic_user"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></ImageView>
-            <!--<Name-->
-            <EditText
-                android:hint="Name :"
-               android:inputType="text"
+            <!--ID number Student 13 digit-->
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="ID number Student 13 digit :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <!--ID number Student 7 digit-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="ID number Student 7 digit :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <!--<<Name-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="Name :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <!--<Surname-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="Surname :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <!--password-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="Password :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <!--Confirm Password-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<icon-->
+                <ImageView
+                    android:src="@mipmap/ic_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <!--<Name-->
+                <EditText
+                    android:hint="Confirm Password :"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
         </LinearLayout>
 
-
-
-        <!--<Surname-->
 
     </ScrollView>
 
