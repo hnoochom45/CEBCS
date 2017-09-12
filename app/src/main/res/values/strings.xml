@@ -3,6 +3,6 @@
     <string name="user">User :</string>
     <string name="password">Password:</string>
     <string name="register">New Resgister</string>
-    <string name="signin">Sign In</string>
+    <string name="signin">Sign In :</string>
 
 </resources>
