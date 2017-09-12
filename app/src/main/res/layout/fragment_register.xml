@@ -53,24 +53,8 @@
             <!--ID number Student 7 digit-->
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="match_parent"
+                android:laout_width="match_parent"
                 android:layout_height="wrap_content">
-
-
-                <!--<icon-->
-                <ImageView
-                    android:src="@mipmap/ic_user"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
-                <!--<Name-->
-                <EditText
-                    android:textColorHint="@color/yellow"
-                    android:hint="ID number Student 7 digit :"
-                    android:inputType="text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
 
 
             <!--<<Name-->
