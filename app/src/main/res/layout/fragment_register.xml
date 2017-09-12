@@ -14,13 +14,15 @@
 
 <!--content-->
     <ScrollView
+        android:padding="@dimen/padding"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
         <!--Content-->
         <LinearLayout
-
+            android:padding="@dimen/padding"
+            android:background="#d0ffffff"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -37,9 +39,10 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="ID number Student 13 digit :"
                     android:inputType="text"
                     android:layout_width="match_parent"
@@ -58,9 +61,10 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="ID number Student 7 digit :"
                     android:inputType="text"
                     android:layout_width="match_parent"
@@ -80,15 +84,23 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="Name :"
                     android:inputType="text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-            </LinearLayout>
 
+
+
+
+
+
+
+
+            </LinearLayout>
 
 
             <!--<Surname-->
@@ -102,14 +114,47 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="Surname :"
                     android:inputType="text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>
+
+            <!--Genner-->
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/h1"
+                android:text="Gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--male-->
+                <RadioButton
+                    android:layout_marginLeft="50dp"
+                    android:text="Male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--famle-->
+                <RadioButton
+                    android:layout_marginLeft="70dp"
+                    android:text="Famle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RadioGroup>
 
 
 
@@ -124,9 +169,10 @@
                 <ImageView
                     android:src="@mipmap/ic_password"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="Password :"
                     android:inputType="text"
                     android:layout_width="match_parent"
@@ -146,14 +192,21 @@
                 <ImageView
                     android:src="@mipmap/ic_password"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"></ImageView>
+                    android:layout_height="wrap_content">/</ImageView>
                 <!--<Name-->
                 <EditText
+                    android:textColorHint="@color/yellow"
                     android:hint="Confirm Password :"
                     android:inputType="text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>
+
+
+            <!--Show Spinner-->
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
 
 
 
