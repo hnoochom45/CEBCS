@@ -6,13 +6,13 @@
     android:orientation="vertical">
     <!--toolbar-->
     <android.support.v7.widget.Toolbar
-    android:layout_width="match_parent"
+        android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:id="@+id/ToobarRegister"/>
 
-<!--content-->
+    <!--content-->
     <ScrollView
         android:padding="@dimen/padding"
         android:layout_width="match_parent"
@@ -21,6 +21,7 @@
 
         <!--Content-->
         <LinearLayout
+
             android:padding="@dimen/padding"
             android:background="#d0ffffff"
             android:orientation="vertical"
@@ -39,9 +40,10 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
+                    android:layout_height="wrap_content"/>
                 <!--<Name-->
                 <EditText
+                    android:id="@+id/edtSurName"
                     android:textColorHint="@color/yellow"
                     android:hint="ID number Student 13 digit :"
                     android:inputType="text"
@@ -50,11 +52,8 @@
             </LinearLayout>
 
 
-            <!--ID number Student 7 digit-->
-            <LinearLayout
-                android:orientation="horizontal"
-                android:laout_width="match_parent"
-                android:layout_height="wrap_content">
+
+
 
 
             <!--<<Name-->
@@ -68,7 +67,7 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
+                    android:layout_height="wrap_content"/>
                 <!--<Name-->
                 <EditText
                     android:textColorHint="@color/yellow"
@@ -98,7 +97,7 @@
                 <ImageView
                     android:src="@mipmap/ic_user"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
+                    android:layout_height="wrap_content"/>
                 <!--<Name-->
                 <EditText
                     android:textColorHint="@color/yellow"
@@ -153,7 +152,7 @@
                 <ImageView
                     android:src="@mipmap/ic_password"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
+                    android:layout_height="wrap_content"/>
                 <!--<Name-->
                 <EditText
                     android:textColorHint="@color/yellow"
@@ -176,7 +175,7 @@
                 <ImageView
                     android:src="@mipmap/ic_password"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">/</ImageView>
+                    android:layout_height="wrap_content"/>
                 <!--<Name-->
                 <EditText
                     android:textColorHint="@color/yellow"
@@ -188,9 +187,7 @@
 
 
             <!--Show Spinner-->
-            <android.support.v7.widget.AppCompatSpinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
+
 
 
 
