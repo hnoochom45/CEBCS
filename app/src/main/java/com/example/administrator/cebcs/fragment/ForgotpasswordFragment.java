@@ -12,16 +12,18 @@ import com.example.administrator.cebcs.MainActivity;
 import com.example.administrator.cebcs.R;
 
 /**
- * Created by Administrator on 12/9/2560.
+ * Created by ASUS on 23/9/2560.
  */
 
-public class RegisterFragment extends Fragment{
+public class ForgotpasswordFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_register,container,false);
         return view;
         //OnCreevied
+
+
     }
 
     @Override
@@ -35,7 +37,7 @@ public class RegisterFragment extends Fragment{
     }//onActivityCreat
 
     private void toolbarController() {
-        Toolbar toolbar = getView().findViewById(R.id.ToobarRegister);
+        Toolbar toolbar = getView().findViewById(R.id.Toobarforhotpassword);
         ((MainActivity)getActivity()).setSupportActionBar(toolbar);
         ((MainActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
         ((MainActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -52,3 +54,5 @@ public class RegisterFragment extends Fragment{
     }
 
 }//Main Class
+
+}
